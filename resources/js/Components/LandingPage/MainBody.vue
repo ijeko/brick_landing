@@ -76,9 +76,8 @@
 
             </div>
         </div>
-
+        <CardImage></CardImage>
         <hr class="featurette-divider">
-
         <div class="row featurette">
             <div class="col-md-12">
                 <h2 class="featurette-heading">Порядок выполнения <span class="text-muted">работ.</span></h2>
@@ -201,8 +200,10 @@
 </template>
 
 <script>
+import CardImage from "@/Components/LandingPage/CardImage";
 export default {
     name: "MainBody",
+    components: {CardImage},
     data() {
         return {
             parameters: [
